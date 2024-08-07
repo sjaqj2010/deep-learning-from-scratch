@@ -61,7 +61,9 @@ def softmax(a):
 
 
 import sys, os
+sys.path.append('C:/Users/448R 제동분석기/PycharmProjects/helloworld/pythonProject1')
 sys.path.append(os.pardir)
+
 from dataset.mnist import load_mnist
 
 (x_train, t_train), (x_test, t_test) = load_mnist(flatten=True, normalize = False)
